@@ -155,15 +155,40 @@
     background-color: #ffC03C;
 }
 
+/*content section (image)*/
 .main_content
 {
     height:100%;
     width:100%;
-    background-image: url('');
+    background-image: url('../imagery/main.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     scale:100%
 }
 
+/*Footer section settings*/
+
+.footer_container
+{
+    height:20%;
+    width:100%;
+}
+
+.footer_setts
+{
+    height:100%;
+    width: 100%;
+}
+
+.footer_content1
+
+{
+    height: 100%;
+    width:100%;
+    background-image: url('../imagery/footer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
