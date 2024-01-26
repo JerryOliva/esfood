@@ -125,4 +125,13 @@
   height: 100%;
   width: 100%;
   background-color: #ffC03C;
+}
+
+.main_content {
+  height: 100%;
+  width: 100%;
+  background-image: url("../imagery/Copia de main_Mesa de trabajo 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */
