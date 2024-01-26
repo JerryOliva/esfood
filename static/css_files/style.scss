@@ -53,7 +53,7 @@
     {
         margin-right:25px;
         color:#ffC03C;
-        font-size: 33px;
+        font-size: 28px;
         font-family: 'rubik';
         font-weight: 900;
         transition:0.6s;
@@ -81,8 +81,22 @@
 /*Center Menu Option (logo)*/ 
 .header_menu_logo
 {
-    width:300px;
+    width:200px;
     height:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;    
+}
+.header_menu_logo_content
+{
+    height:100%;
+    width:100%;
+    background-image: url('../imagery/es_food_amarillo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    scale: 200%;
 }
 
 /*left Menu Option (order / maps)*/ 
@@ -102,7 +116,7 @@
     {
         margin-left:25px;
         color:#ffC03C;
-        font-size: 33px;
+        font-size: 28px;
         font-family: 'rubik';
         font-weight: 900;
         transition:0.6s;
