@@ -113,4 +113,16 @@
 .header_menu_options_l2:hover {
   color: #fff;
   cursor: none;
+}
+
+/*Main content settings*/
+.main_container {
+  height: 80%;
+  width: 100%;
+}
+
+.main_container_setts {
+  height: 100%;
+  width: 100%;
+  background-color: #ffC03C;
 }/*# sourceMappingURL=style.css.map */
