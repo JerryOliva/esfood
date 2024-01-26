@@ -1,0 +1,122 @@
+*
+{
+    padding:0;
+    margin:0;box-sizing: border-box;
+    
+}
+
+/*Typography*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;900&display=swap');
+
+/* CONTAINER GENERAL PAGE */
+
+.container
+{
+    height:100vh;
+    width:100vw;
+}
+
+/*Header setting section*/
+
+.header_size
+{
+    height:15%;
+    width:100%;
+    background-color: #ff4d00;
+}
+
+.header_menu_setts
+{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Right Menu Option (log in session / register / Culture)*/ 
+.header_menu_options_r
+{
+    width:400px;
+    height:100%;
+    display: flex;
+    align-items: center;
+
+    &1
+    {
+        margin-left:20px;
+    }
+
+    &1,&2,&3
+    {
+        margin-right:25px;
+        color:#ffC03C;
+        font-size: 33px;
+        font-family: 'rubik';
+        font-weight: 900;
+        transition:0.6s;
+    }
+}
+
+.header_menu_options_r1:hover
+{
+    color: #fff;
+    cursor: none;
+}
+
+.header_menu_options_r2:hover
+{
+    color: #fff;
+    cursor: none;
+}
+
+.header_menu_options_r3:hover
+{
+    color: #fff;
+    cursor: none;
+}
+
+/*Center Menu Option (logo)*/ 
+.header_menu_logo
+{
+    width:300px;
+    height:100%;
+}
+
+/*left Menu Option (order / maps)*/ 
+.header_menu_options_l
+{
+    width:500px;
+    height:100%;
+    display: flex;
+    align-items: center;
+
+    &1
+    {
+        margin-right:20px;
+    }
+
+    &1,&2
+    {
+        margin-left:25px;
+        color:#ffC03C;
+        font-size: 33px;
+        font-family: 'rubik';
+        font-weight: 900;
+        transition:0.6s;
+    }
+}
+
+.header_menu_options_l1:hover
+{
+    color: #fff;
+    cursor: none;
+}
+
+.header_menu_options_l2:hover
+{
+    color: #fff;
+    cursor: none;
+}
