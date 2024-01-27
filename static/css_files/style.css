@@ -147,13 +147,73 @@
 .footer_setts {
   height: 100%;
   width: 100%;
+  display: flex;
 }
 
 .footer_content1 {
   height: 100%;
-  width: 100%;
+  width: 50%;
   background-image: url("../imagery/footer.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-}/*# sourceMappingURL=style.css.map */
+  background-position-x: center;
+  background-position-y: center;
+  position: relative;
+  left: 120px;
+}
+
+.footer_content2 {
+  height: 100%;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_content_in2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  height: 100%;
+  width: 100%;
+  scale: 10%;
+}
+
+.footer_content3 {
+  height: 100%;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_content_in3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  height: 100%;
+  width: 100%;
+  scale: 10%;
+}
+
+.footer_content4 {
+  height: 100%;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_content_in4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  height: 100%;
+  width: 100%;
+  scale: 10%;
+}
+
+/*registrant page.html*//*# sourceMappingURL=style.css.map */
