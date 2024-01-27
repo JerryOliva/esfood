@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block body %}
+ <!--principal container-->
+<div class="container1">
+    <!--Set content to center-->
+    <div class="container1_setts">
+
+        <!--content center settings-->
+        <div class="container_center">
+
+            <!--brand info -->
+            <div class="container_center1">
+                <div class="container_center_data"></div>
+            </div>
+            <div class="container_center2">
+                <!--suscription form-->
+                <div class="container_center_form">
+                    <form method="post" name="user_form">
+
+                        <label for="nombre">NOMBRE:</label>
+                        <input type="text" name="nombre" required>
+                        
+                        <label for="apellido" required >APELLIDO:</label>
+                        <input type="text" name="apellido" required>
+                
+                        <label for="ocupacion" required >OCUPACION:</label>
+                        <input type="text" name="ocupacion" required>
+                        
+                        <label for="municipio" required >MUNICIPIO:</label>
+                        <input type="text" name="municipio" required>
+                      
+                        <label for="email" required >EMAIL:</label>
+                        <input type="email" name="email" required>
+
+                        
+                        <label for="telefono" required >TELEFONO:</label>
+                        <input type="text" name="telefono" required>
+        
+                        <input type="submit" name="suscribir" value="SUSCRIBIR">
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

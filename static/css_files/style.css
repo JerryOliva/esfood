@@ -216,4 +216,60 @@
   scale: 10%;
 }
 
-/*registrant page.html*//*# sourceMappingURL=style.css.map */
+/*registra.html*/
+/*general web size*/
+.container1 {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*background settings (fondo)*/
+.container1_setts {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4d00;
+}
+
+/*form content container & data*/
+.container_center {
+  height: 80%;
+  width: 50%;
+  background-color: #ffC03C;
+  display: flex;
+}
+.container_center1 {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+}
+.container_center2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_center_form {
+  height: 100%;
+  width: 100%;
+  color: #ff4d00;
+  font-family: "rubik";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */

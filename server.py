@@ -5,3 +5,7 @@ app=Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/registra')
+def registra():
+    return render_template('registra.html')
