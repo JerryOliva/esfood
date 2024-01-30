@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Es.aquí
+{% endblock %}
+
+{% block body %}
+
+<!--General container-->
+
+<div class="container5">
+         <!--Header section-->
+    <div class="header_size">
+        <div class="header_menu_setts">
+            <!--Navigation bar-->
+            <div class="header_menu_options_r">
+
+                <div class="header_menu_options_r1"><a class="header_menu_options_r1" href="{{url_for('registra')}}" rel="noopener noreferrer"> <p>REGISTRA</p> </a> </div>
+                <div class="header_menu_options_r2"><a class="header_menu_options_r2" href="{{url_for('sesion')}}" rel="noopener noreferrer"> <p>SESIÓN</p> </a></div>
+                <div class="header_menu_options_r3"><a class="header_menu_options_r3" href="{{url_for('nosotros')}}" rel="noopener noreferrer"> <p>NOSOTROS</p> </a></div>
+            </div>
+
+            <div class="header_menu_logo">
+                <div class="header_menu_logo_content">
+                    <a id="logo_nav" href="{{url_for('home')}}" rel="noopener noreferrer" > <img id="logo_nav" src="../static/imagery/es_food_amarillo.png" alt="inicio"> </a>
+
+                </div>
+            </div>
+
+            <div class="header_menu_options_l">
+
+                <div class="header_menu_options_l1"><a class="header_menu_options_l1" href="{{url_for('ordena')}}" rel="noopener noreferrer"> <p>ORDENA</p> </a></div>
+                <div class="header_menu_options_l1"><a class="header_menu_options_l1" href="{{url_for('aqui')}}" rel="noopener noreferrer"> <p>AQUÍ ESTOY</p> </a></div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+    Here is going to show maps ubication & culture content
+{% endblock %}

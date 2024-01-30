@@ -45,6 +45,9 @@
   font-family: "rubik";
   font-weight: 900;
   transition: 0.6s;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 .header_menu_options_r1:hover {
@@ -70,19 +73,24 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 50px;
+  left: 30px;
 }
 
 .header_menu_logo_content {
   height: 100%;
   width: 100%;
-  background-image: url("../imagery/es_food_amarillo.png");
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 30px;
+}
+
+a[id=logo_nav] {
   background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  scale: 200%;
+  scale: 23%;
+  position: relative;
+  left: 30px;
 }
 
 /*left Menu Option (order / maps)*/
@@ -103,6 +111,7 @@
   font-family: "rubik";
   font-weight: 900;
   transition: 0.6s;
+  text-decoration: none;
 }
 
 .header_menu_options_l1:hover {
@@ -272,4 +281,28 @@ form {
   justify-content: space-around;
   align-items: center;
   margin: 20px;
+}
+
+/* sesion.html styles */
+.container2 {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* nosotros.html styles */
+.container3 {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ordena.html styles */
+.container4 {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* aquiEstoy.html styles */
+.container5 {
+  height: 100vh;
+  width: 100vw;
 }/*# sourceMappingURL=style.css.map */
