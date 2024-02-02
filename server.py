@@ -1,4 +1,4 @@
-from flask import Flask, request , render_template, session
+from flask import Flask, request , render_template, session,redirect, url_for
 
 app=Flask(__name__)
 
@@ -8,9 +8,24 @@ def home():
     return render_template('index.html')
 
 #registrant entrance for social club
-@app.route('/registra')
+@app.route('/registra', methods=["POST", "GET"])
 def registra():
-    return render_template('registra.html')
+
+    if request.method=="POST":
+    
+        name=request.form.get('nombre')
+        l_name=request.form.get('apellido')
+        ocupation=request.form.get('ocupacion')
+        town=request.form.get('municipio')
+        estate=request.form.get('estado')
+        email=request.form.get('email')
+        phone=request.form.get('telefono')
+
+        
+        return redirect(url_for('registra'))
+    else:
+        return render_template('registra.html')
+    
 
 #sesion scoring,orders & rewards
 @app.route('/sesion')

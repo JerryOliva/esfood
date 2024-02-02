@@ -21,8 +21,9 @@ connection.close()
 #registrants database
 connection=sqlite3.connect('data_food.db')
 c=connection.cursor()
-c.execute('''CREATE TABLE es_lovers(name TEXT NOT NULL,
-                    l_name TEXT NOT NULL, ocupation TEXT NOT NULL,
+c.execute('''CREATE TABLE es_lovers (name TEXT NOT NULL,
+                    l_name TEXT NOT NULL,
+                    password TEXT NOT NULL, ocupation TEXT NOT NULL,
                     town TEXT NOT NULL, estate TEXT NOT NULL,
                     email TEXT NOT NULL, telephone TEXT NOT NULL)''')
 connection.close()
